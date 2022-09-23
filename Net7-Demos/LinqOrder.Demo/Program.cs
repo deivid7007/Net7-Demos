@@ -14,12 +14,14 @@ sortedDesc = data.OrderByDescending(e => e);
 
 // Printing sorted values
 Console.WriteLine("ASC:");
+
 foreach (var item in sorted)
 {
     Console.WriteLine(item);
 }
 
 Console.WriteLine("DESC:");
+
 foreach (var item in sortedDesc)
 {
     Console.WriteLine(item);
