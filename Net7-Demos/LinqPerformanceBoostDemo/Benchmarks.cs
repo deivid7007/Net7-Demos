@@ -8,26 +8,19 @@ namespace LinqPerformanceBoostDemo
     [MemoryDiagnoser(false)]
     public class Benchmarks
     {
-        [Params(1000)]
-        public int Size { get; set; }
-
-        public IEnumerable<int> Items { get; set; }
-
-        public void Setup()
-        {
-            Items = Enumerable.Range(1, Size).ToArray();
-        }
+        private IEnumerable<int> _items { get; set; } =
+            Enumerable.Range(1, 100).ToArray();
 
         [Benchmark]
-        public int Max() => Items.Max();
+        public int Max() => _items.Max();
 
         [Benchmark]
-        public int Min() => Items.Min();
+        public int Min() => _items.Min();
 
         [Benchmark]
-        public double Average() => Items.Average();
+        public double Average() => _items.Average();
 
         [Benchmark]
-        public int Sum() => Items.Sum();
+        public int Sum() => _items.Sum();
     }
 }
