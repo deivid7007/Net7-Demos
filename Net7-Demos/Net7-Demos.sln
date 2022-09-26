@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemTextJsonPolyDemo", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqOrder.Demo", "LinqOrder.Demo\LinqOrder.Demo.csproj", "{1C82A8BF-F651-4358-8DB0-8A9E056D4F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeaningfulStringsDemo", "MeaningfulStringsDemo\MeaningfulStringsDemo.csproj", "{863B30EB-312A-46BB-AE69-B785F397B222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeaningfulStringsDemo", "MeaningfulStringsDemo\MeaningfulStringsDemo.csproj", "{863B30EB-312A-46BB-AE69-B785F397B222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPerformanceBoostDemo", "LinqPerformanceBoostDemo\LinqPerformanceBoostDemo.csproj", "{51C29395-289A-455A-899C-0CF63B9D42B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{863B30EB-312A-46BB-AE69-B785F397B222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863B30EB-312A-46BB-AE69-B785F397B222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863B30EB-312A-46BB-AE69-B785F397B222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C29395-289A-455A-899C-0CF63B9D42B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C29395-289A-455A-899C-0CF63B9D42B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C29395-289A-455A-899C-0CF63B9D42B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C29395-289A-455A-899C-0CF63B9D42B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
