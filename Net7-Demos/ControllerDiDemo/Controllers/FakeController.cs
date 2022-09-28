@@ -9,17 +9,17 @@ namespace ControllerDiDemo.Controllers
     {
 
         // .NET 6 implementation
-        //[HttpGet("cars")]
-        //public IEnumerable<string> Get([FromServices] IFakeService fakeService)
-        //{
-        //    return fakeService.GetCarBrands();
-        //}
-
-        // .NET 7 implementation
         [HttpGet("cars")]
-        public IEnumerable<string> Get(IFakeService fakeService)
+        public IEnumerable<string> Get([FromServices] IFakeService fakeService)
         {
             return fakeService.GetCarBrands();
         }
+
+        // .NET 7 implementation
+        //[HttpGet("cars")]
+        //public IEnumerable<string> Get(IFakeService fakeService)
+        //{
+        //    return fakeService.GetCarBrands();
+        //}
     }
 }
